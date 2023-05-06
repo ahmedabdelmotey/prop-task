@@ -1,0 +1,888 @@
+*{
+    padding: 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    margin-inline-start: 50px;
+}
+
+nav .container ul{
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: center;
+list-style: none;
+}
+
+nav .container ul li {
+    margin-inline-end: 30px;
+}
+
+nav .container ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav .container ul li a:hover{
+    color:rgb(118, 176, 31);
+}
+
+nav .container ul .logo img {
+    width: 150px;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+nav .container .form {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-inline-end: 250px;
+    width: 300px;
+    position: relative;
+}
+
+nav .container .form input{
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding-inline-end: 110px;
+    padding-inline-start: 10px;
+}
+
+nav .container .form input::placeholder {
+    padding: 0 20px ;
+}
+
+nav .container .form .btn {
+    right: 2px;
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    border-radius: 20px;
+    background-color:rgb(118, 176, 31);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    transition: .3s all linear;
+}
+
+nav .container .form .btn:hover {
+    background-color: rgb(69, 99, 25);
+}
+
+nav .container .form .btn a {
+    text-decoration: none;
+    color: white;
+}
+
+
+header {
+    padding-top: 50px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+
+header .heading {
+    width: 70%;
+
+}
+
+header .heading .content {
+    margin-inline-start: 100px;
+    margin-top: 50px;
+}
+
+header .heading .content h1 {
+    color: rgb(118, 176, 31);
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+header .heading .content span {
+    color: black;
+    font-size: 40px;
+    
+}
+
+header .heading .btn {
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    background-color:rgb(69, 99, 25);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    margin-inline-start: 100px;
+    transition: .3s linear all;
+} 
+
+header .heading .btn:hover {
+    background-color: rgb(118, 176, 31);
+}
+
+header .heading .btn a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+header .heading .btn::after {
+content: '';
+position: absolute;
+right: 3px;
+top: 5px;
+width: 20px;
+height: 20px;
+background: url("../icons/next.png") white no-repeat ;
+background-size: contain;
+border-radius: 50%;
+
+}
+
+header .green {
+    background-color:rgb(69, 99, 25) ;
+    width: 30%;
+    height: 600px;
+    border-radius: 0 0 0 50px;
+    position: relative;
+}
+
+header .green .one {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 100px;
+    height: 150px;
+}
+
+header .green .big {
+    position: absolute;
+    width: 550px;
+    height: 500px;
+    left: -70%;
+
+}
+
+header .green .two {
+    position: absolute;
+    bottom: 80px;
+    left: 45%;
+}
+
+header .green p {
+    font-size: 40px;
+    color: white;
+    transform: rotate(90deg) translateY(-170px ) translateX(170px) ;
+    position: absolute;
+}
+
+.offers {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content:center;
+    
+}
+
+.offers .offer1 {
+    background-image: url("../images/banner-10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 250px;
+    border-radius: 10px;
+    margin-inline-end: 15px;
+    transition: .3s all linear;
+}
+
+.offers .offer1:hover {
+    transform: translateY(-10px);
+    }
+
+.offers .offer1 h2 {
+    color: white;
+    background-color: orange;
+    height: 30px;
+    width:120px;
+    padding: 10px;
+    margin: 20px;
+    
+}
+
+.offers .offer1 p {
+    font-size: 25px;
+    margin: 20px;
+    width: 40%;
+}
+
+.offers .offer1 span {
+    margin: 20px;
+    display: block;
+}
+
+.offers .offer1 a {
+    color: orange;
+    margin: 20px;
+}
+
+.offers .offer2 {
+    background-image: url("../images/banner-11.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 250px;
+    border-radius: 10px;
+    margin-inline-end: 15px;
+    transition: .3s all linear;
+}
+
+.offers .offer2:hover {
+    transform: translateY(-10px);
+    }
+
+    .offers .offer2 h2 {
+        color: white;
+        background-color: rgb(69, 99, 25);
+        height: 30px;
+        width:130px;
+        padding: 10px;
+        margin: 20px;
+        
+    }
+
+    .offers .offer2 p {
+        font-size: 30px;
+        margin: 20px;
+        width: 50%;
+        color: red;
+    }
+
+    .offers .offer2 a {
+        color: rgb(69, 99, 25);
+        margin: 20px;
+    }
+    
+
+.offers .offer3 {
+    background-image: url("../images/banner-12.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 250px;
+    border-radius: 10px;
+    transition: .3s all linear;
+}
+
+.offers .offer3:hover {
+transform: translateY(-10px);
+}
+
+.offers .offer3 h2 {
+    color: black;
+    background-color: white;
+    height: 30px;
+    width:150px;
+    padding: 10px;
+    margin: 20px;
+    
+}
+
+.offers .offer3 p {
+    font-size: 25px;
+    margin: 20px;
+    width: 40%;
+    color: rgb(9, 189, 189);
+}
+
+.offers .offer3 span {
+    margin: 20px;
+    display: block;
+}
+
+.offers .offer3 a {
+    color: orange;
+    margin: 20px;
+}
+
+.orange {
+    margin: 50px;
+    display: flex;
+    height: 100%;
+    
+}
+
+.orange .big {
+    background-color: orange ;
+    width: 30%;
+    height: 600px;
+    border-radius: 0 50px 0 0;
+    position: relative;
+}
+
+.orange .big p {
+    font-size: 40px;
+    color: white;
+    transform: rotate(90deg) translateY(-70px ) translateX(170px) ;
+    position: absolute;
+    z-index: 2;
+}
+
+.orange .big img {
+    position: absolute;
+    bottom: 0 ;
+    z-index: 1;
+}
+
+.orange .content {
+    width: 50%;
+    padding-inline-start: 30%;
+    margin : auto;
+}
+
+.orange .content h1 {
+    color: rgb(118, 176, 31);
+    font-size: 50px;
+}
+
+.orange .content .btn {
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    background-color:rgb(69, 99, 25);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    transition: .3s all linear;
+}
+
+.orange .content .btn:hover{
+    background-color: rgb(118, 176, 31);
+}
+
+.orange .content .btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.orange .content .btn::after {
+    content: '';
+position: absolute;
+right: 3px;
+top: 5px;
+width: 20px;
+height: 20px;
+background: url("../icons/next.png") white no-repeat ;
+background-size: contain;
+border-radius: 50%;
+}
+
+.products {
+    width: 100%;
+    height: 300px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.products a img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin-inline-end: 30px;
+}
+
+.deals .heading {
+    justify-content: space-between;
+    display: flex;
+    margin: 30px 20px;
+}
+
+.deals .heading h1 {
+    font-size: 30px;
+    color: rgb(118, 176, 31);
+    padding: 0;
+    margin: 0;
+}
+
+.deals .heading .btn {
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    background-color:rgb(69, 99, 25);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    transition: .3s all linear;
+}
+
+.deals .heading .btn:hover {
+    background-color: rgb(118, 176, 31);
+}
+
+.deals .heading .btn  a {
+    color: white;
+    text-decoration: none;
+}
+
+.deals .heading .btn ::after {
+    content: '';
+position: absolute;
+right: 3px;
+top: 5px;
+width: 20px;
+height: 20px;
+background: url("../icons/next.png") white no-repeat ;
+background-size: contain;
+border-radius: 50%;
+}
+
+.deal{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.deal .photo {
+    width: 23%;
+    height: 300px;
+    position: relative;
+}
+
+.deal .photo img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.deal .photo span{
+    color: red;
+    border: 1px solid red ;
+    border-radius: 10px;
+    padding: 5px 5px;
+    position:absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+.deal .content {
+    width: 23%;
+    height: 300px;
+    padding: 0 20px ;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.deal .content p {
+    color: red;
+    padding: 10px;
+}
+
+.deal .content p del {
+    color: black;
+    margin-inline-start: 10px;
+}
+
+.deal .content .btn {
+    width: 120px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    margin: 10px;
+    transition: .3s all linear;
+}
+
+.deal .content .btn a {
+    color: black;
+    text-decoration: none;
+}
+
+.deal .content .btn::after{
+content: '';
+position: absolute;
+right: 3px;
+top: 5px;
+width: 20px;
+height: 20px;
+background: url("../icons/next.png") rgb(118, 176, 31) no-repeat ;
+background-size: contain;
+border-radius: 50%;
+}
+
+.deal .content .btn:hover{
+    background-color: rgb(69, 99, 25);
+}
+
+.deal .content .btn:hover a {
+    color: white;
+}
+
+.deal .content .btn:hover::after{
+    content: '';
+    position: absolute;
+    right: 3px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background: url("../icons/next.png") white no-repeat ;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.deal .content table {
+    margin: 15px 0;
+    border-spacing: 10px;
+}
+
+.deal .content table .red {
+    color: red;
+}
+.back {
+    height: 150px;
+background-image: url("../images/back-7.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 20px;
+overflow: hidden;
+margin: 50px 20px;
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: center;
+
+
+}
+
+.back a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    margin-inline-end: 100px;
+}
+
+.back ::before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    background: url("../icons/next.png") white no-repeat ;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.market h1 {
+    color: rgb(118, 176, 31);
+    font-size: 30px;
+}
+
+.market ul {
+    display: flex;
+    list-style: none;
+}
+
+.market ul li {
+    margin-inline-end: 20px;
+}
+
+
+.market ul li a {
+    text-decoration: none;
+    color: rgb(104, 98, 98);
+}
+
+.market ul li a:hover{
+    color: black;
+}
+
+.last{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.last .firsthalf {
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.last .firsthalf h1 {
+    color: rgb(118, 176, 31);
+    font-size: 30px;
+}
+
+.last .firsthalf span{
+    font-size: 30px;
+}
+
+.last .firsthalf p {
+    width: 50%;
+    line-height: 25px;
+}
+
+.last .firsthalf .btn{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    background-color:rgb(69, 99, 25);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    transition: .3s all linear;
+}
+
+.last .firsthalf .btn:hover{
+    background-color: rgb(118, 176, 31);
+}
+
+.last .firsthalf .btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.last .firsthalf .btn::after {
+    content: '';
+position: absolute;
+right: 3px;
+top: 5px;
+width: 20px;
+height: 20px;
+background: url("../icons/next.png") white no-repeat ;
+background-size: contain;
+border-radius: 50%;
+}
+
+.last .secondhalf {
+    width: 40%;
+    background-color: orange;
+    border-radius: 50px 0 0 0;
+    position: relative;
+}
+
+.last .secondhalf img {
+position: absolute;
+left: -50px;
+bottom: 0;
+width: 500px;
+height: 400px;
+}
+
+.brand  {
+    width: 100%;
+    height: 150px;
+    background-color: #eee;
+    display: flex;
+
+}
+
+.brand .brands {
+    margin: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.brand .brands img {
+    height: 100px;
+    width: 130px;
+    margin-inline-end: 50px;
+}
+
+.hot {
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+
+
+.hot h1 {
+    color: rgb(118, 176, 31);
+
+}
+
+.hot .container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.hot .card {
+    width: 23%;
+    height: 350px;
+    margin-inline-end: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    transition: .3s all linear;
+}
+.hot .card:hover{
+    transform: translateY(-10px);
+}
+.hot .card img {
+    width: 100%;
+    height: 250px;
+}
+
+.hot .card h3,
+.hot .card p {
+    text-align: center;
+}
+
+.hot .card p del {
+    color: red;
+}
+
+.hot .card span {
+    color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 5px 5px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.hot .card .two {
+    color: white;
+    border: 0ch;
+    background-color: rgb(118, 176, 31);
+    border-radius: 10px;
+    padding: 5px 15px;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    transition: .3s all linear;
+    visibility: hidden;
+}
+
+.hot .card:hover .two {
+    visibility: visible;
+left: 19px;
+}
+
+.blog .form {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 20px;
+}
+
+.blog .form h1 {
+    color: rgb(118, 176, 31);
+}
+
+.blog .form .btn {
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(69, 99, 25);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    transition: .3s all linear;
+}
+
+.blog .form .btn:hover {
+    background-color: rgb(118, 176, 31);
+}
+
+.blog .form .btn::after{
+    content: '';
+    position: absolute;
+    right: 3px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background: url("../icons/next.png") white no-repeat ;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.blog .form .btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.blog .container {
+    display: flex;
+    margin-left: 10px;
+}
+
+.blog .container .card {
+    width: 32%;
+    height: 500px;
+    margin-inline-end: 20px;
+    transition: .3s all linear;
+}
+
+.blog .container .card:hover{
+    transform: translateY(-10px);
+}
+
+.blog .container .card img {
+    width: 100%;
+    height: 300px;
+}
+
+.blog .container .card h3 {
+text-decoration: line-through 8px rgb(255,0,0,.3);
+}
+
+.blog .container .card a {
+    color: rgb(118, 176, 31);
+}
+
+.green-form {
+background-image: url("../images/back-9.jpg");
+height: 200px;
+border-radius: 20px;
+align-items: center;
+align-content: center;
+justify-content: center;
+display:flex ;
+flex-direction: column;
+text-decoration: none;
+}
+
+.green-form h1 {
+    color: white;
+    font-size: 50px;
+    padding: 0;
+    margin: 20px;
+}
